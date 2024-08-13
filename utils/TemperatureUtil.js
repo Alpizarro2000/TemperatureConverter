@@ -3,7 +3,7 @@ import { TemperatureVO } from "../valueobjects/TemperatureVO";
  * Converts a temperature to the unit to be converted
  * @param {TemperatureVO} temperature - Object that contains a value and a unit representing a temperature
  * @param {string} unit - The unit to convert. Valid vales are: CELIUS and FAHRENHEIT.
- * @returns {TemperatureVO} -Object containing a value and unit representing the converted temerature
+ * @returns {TemperatureVO} -Object containing a value and unit representing the converted temperature
  */
 
 const TemperatureUtil = () => {
